@@ -11,6 +11,12 @@
 		FAE74D13251E8ABE00A8F216 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE74D12251E8ABE00A8F216 /* ContentView.swift */; };
 		FAE74D15251E8ABF00A8F216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE74D14251E8ABF00A8F216 /* Assets.xcassets */; };
 		FAE74D18251E8ABF00A8F216 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE74D17251E8ABF00A8F216 /* Preview Assets.xcassets */; };
+		FAE74D29251E8F0E00A8F216 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE74D25251E8F0E00A8F216 /* Menu.swift */; };
+		FAE74D2A251E8F0E00A8F216 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE74D26251E8F0E00A8F216 /* Order.swift */; };
+		FAE74D2B251E8F0E00A8F216 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE74D27251E8F0E00A8F216 /* Helper.swift */; };
+		FAE74D2C251E8F0E00A8F216 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE74D28251E8F0E00A8F216 /* menu.json */; };
+		FAE74D2F251E933300A8F216 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE74D2E251E933300A8F216 /* ItemRow.swift */; };
+		FAE74D32251E984200A8F216 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE74D31251E984200A8F216 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		FAE74D14251E8ABF00A8F216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE74D17251E8ABF00A8F216 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAE74D19251E8ABF00A8F216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE74D25251E8F0E00A8F216 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		FAE74D26251E8F0E00A8F216 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FAE74D27251E8F0E00A8F216 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		FAE74D28251E8F0E00A8F216 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		FAE74D2E251E933300A8F216 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		FAE74D31251E984200A8F216 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,14 @@
 		FAE74D0F251E8ABE00A8F216 /* SayuriOS */ = {
 			isa = PBXGroup;
 			children = (
+				FAE74D31251E984200A8F216 /* ItemDetail.swift */,
 				FAE74D10251E8ABE00A8F216 /* SayuriOSApp.swift */,
+				FAE74D27251E8F0E00A8F216 /* Helper.swift */,
+				FAE74D28251E8F0E00A8F216 /* menu.json */,
+				FAE74D25251E8F0E00A8F216 /* Menu.swift */,
+				FAE74D26251E8F0E00A8F216 /* Order.swift */,
 				FAE74D12251E8ABE00A8F216 /* ContentView.swift */,
+				FAE74D2E251E933300A8F216 /* ItemRow.swift */,
 				FAE74D14251E8ABF00A8F216 /* Assets.xcassets */,
 				FAE74D19251E8ABF00A8F216 /* Info.plist */,
 				FAE74D16251E8ABF00A8F216 /* Preview Content */,
@@ -126,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE74D2C251E8F0E00A8F216 /* menu.json in Resources */,
 				FAE74D18251E8ABF00A8F216 /* Preview Assets.xcassets in Resources */,
 				FAE74D15251E8ABF00A8F216 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE74D32251E984200A8F216 /* ItemDetail.swift in Sources */,
+				FAE74D29251E8F0E00A8F216 /* Menu.swift in Sources */,
 				FAE74D13251E8ABE00A8F216 /* ContentView.swift in Sources */,
+				FAE74D2B251E8F0E00A8F216 /* Helper.swift in Sources */,
+				FAE74D2F251E933300A8F216 /* ItemRow.swift in Sources */,
+				FAE74D2A251E8F0E00A8F216 /* Order.swift in Sources */,
 				FAE74D11251E8ABE00A8F216 /* SayuriOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
